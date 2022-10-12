@@ -1,10 +1,4 @@
-import faker from "faker";
-
-let products = "";
-
-for (let i = 0; i < 10; i++) {
-  const name = faker.commerce.productName();
-  products += `<div>${name}</div>`;
-}
-
-document.querySelector("#dev-products").innerHTML = products;
+import("./bootstrap");
+// The import() call, commonly called dynamic import, is a function-like expression that allows loading an ECMAScript
+// module asynchronously and dynamically into a potentially non-module environment.
+import("./bootstrap");
