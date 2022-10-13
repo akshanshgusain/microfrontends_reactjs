@@ -7,7 +7,7 @@ on:
     paths:
       - "statup/container/**"
 
-default:
+defaults:
   run:
     working-directory: statup/container
 
