@@ -1,4 +1,4 @@
-import { mount as marketingMount } from "marketing/MarketingApp";
+import { mount as authMount } from "auth/AuthApp";
 // this mount funtion is NOT a react Component
 import React, { useRef, useEffect } from "react";
 import { useHistory } from "react-router-dom";

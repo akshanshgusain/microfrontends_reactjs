@@ -17,7 +17,6 @@ export default () => {
       <StylesProvider generateClassName={generateClassName}>
         <div>
           <Header />
-          <h1>Hi There!!! I am Container</h1>
           <MarketingApp />
         </div>
       </StylesProvider>
